@@ -2,4 +2,3 @@
 
 If the specimen breaks in two pieces then it will be in single shear & if it breaks in three pieces then it will be in double shear. 
 
-<a href="docs/Exp-3-Shear-test.pdf">read more</a>
