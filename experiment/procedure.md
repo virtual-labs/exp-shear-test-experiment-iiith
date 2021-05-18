@@ -18,5 +18,5 @@ Observation:
 8. Stop the machine and remove the specimen
 Repeat the experiment with other specimens. 
 
-<a href="docs/Exp-3-Shear-test.pdf">read more</a>
+
 

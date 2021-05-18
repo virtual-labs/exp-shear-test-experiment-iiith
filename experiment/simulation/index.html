@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="css/exp3.css">
-</head>
-<body>
-		 <iframe id="exp_container" src="exp3.html"></iframe>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+		<link rel="stylesheet" href="./css/main.css">
+	</head>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+	<body class="page">
+		<div class="columns is-mobile is-centered">
+			<div class="column has-text-centered">
+				<button id="restart" class="action-button">Restart</button>
+			</div>
+		</div>
+
+		<div class="columns is-mobile is-centered">
+			<div class="column has-text-centered">
+				<div class="hero is-small">
+					<div class="hero-body">
+						<canvas class="main" id="main"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./js/main.js"></script>
+	</body>
 </html>
