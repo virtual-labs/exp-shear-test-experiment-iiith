@@ -23,20 +23,20 @@ document.addEventListener('DOMContentLoaded', function () {
 	let fps = 12;
 
 	
-	const slab1X = 500
-	const slab1Y = 200
-	const slabWidth = 200
-	const slabLength = 40
-	const VslabX = 580
-	const VslabY = 200
-	const VslabWidth = 40
-	const VslabLength = 3*slabLength
+	const slab1X = 500;
+	const slab1Y = 200;
+	const slabWidth = 200;
+	const slabLength = 40;
+	const VslabX = 580;
+	const VslabY = 200;
+	const VslabWidth = 40;
+	const VslabLength = 3*slabLength;
 	const gap = 3;
-	const slab2X = 500
-	const slab2Y = 280
-	const materialX = 480
-	const materialY = 240
-	const movement = 2
+	const slab2X = 500;
+	const slab2Y = 280;
+	const materialX = 480;
+	const materialY = 240;
+	const movement = 2;
 	let flag = 0;
 
 	let slab1 = [
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		[slab1X + slabWidth ,slab1Y+ slabLength],
 		[slab1X, slab1Y + slabLength]
 		
-	]
+	];
 
 	let slab2 = [
 		[slab2X ,slab2Y],
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		[slab2X + slabWidth ,slab2Y+ slabLength],
 		[slab2X, slab2Y + slabLength]
 		
-	]
+	];
 
 	let material = [
 		[materialX ,materialY],
@@ -61,14 +61,14 @@ document.addEventListener('DOMContentLoaded', function () {
 		[materialX + slabWidth ,materialY+ slabLength],
 		[materialX, materialY + slabLength]
 		
-	]
+	];
 
 	let part1 = [
 		[materialX -movement ,materialY],
 		[VslabX - movement ,materialY],
 		[VslabX - movement ,materialY+ slabLength],
 		[materialX -movement, materialY + slabLength]
-	]
+	];
 
 	let part2 = [
 		[VslabX - movement + VslabWidth ,materialY],
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		[materialX -movement + slabWidth ,materialY+ slabLength],
 		[VslabX - movement + VslabWidth, materialY + slabLength]
 		
-	]
+	];
 	
 	let Vslab = [
 		[VslabX ,VslabY],
@@ -84,27 +84,27 @@ document.addEventListener('DOMContentLoaded', function () {
 		[VslabX + VslabWidth ,VslabY+ VslabLength],
 		[VslabX, VslabY + VslabLength]
 		
-	]
+	];
 	let Vpart1 = [
 		[VslabX ,VslabY],
 		[VslabX + VslabWidth ,VslabY],
 		[VslabX + VslabWidth ,VslabY+ VslabWidth],
 		[VslabX, VslabY + VslabWidth]
-	]
+	];
 
 	let Vpart2 = [
 		[VslabX - movement ,VslabY+ gap + VslabWidth],
 		[VslabX - movement + VslabWidth ,VslabY+gap + VslabWidth],
 		[VslabX - movement + VslabWidth ,VslabY+ 2*VslabWidth-gap],
 		[VslabX - movement, VslabY + 2*VslabWidth-gap]
-	]
+	];
 
 	let Vpart3 = [
 		[VslabX ,VslabY + 2*VslabWidth],
 		[VslabX + VslabWidth ,VslabY + 2*VslabWidth],
 		[VslabX + VslabWidth ,VslabY + 3*VslabWidth],
 		[VslabX, VslabY + 3*VslabWidth]
-	]
+	];
 
 
 	function canvasArrow(context, fromx, fromy, tox, toy) {
@@ -147,9 +147,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		let text = "Shear Strength of Material : 452.703 N/mm^2";
 		ctx.fillText(text, 250,50);
 		ctx.font = "20px Arial";
-		ctx.fillText("F/2",760,225)
-		ctx.fillText("F/2",760,305)
-		ctx.fillText("F",410,265)
+		ctx.fillText("F/2",760,225);
+		ctx.fillText("F/2",760,305);
+		ctx.fillText("F",410,265);
 
 		ctx.stroke();
 
