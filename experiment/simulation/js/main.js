@@ -12,9 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
 		flag = 0;
 		tmHandle = window.setTimeout(draw, 1000 / fps); 
 	}
+	
 	const canvas = document.getElementById("main");
 	canvas.width = 1200;
-	canvas.height = 600;
+	canvas.height = 400;
 	canvas.style = "border:3px solid";
 	const ctx = canvas.getContext("2d");
 
