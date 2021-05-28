@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	
 	const canvas = document.getElementById("main");
 	canvas.width = 1200;
-	canvas.height = 400;
+	canvas.height = 600;
 	canvas.style = "border:3px solid";
 	const ctx = canvas.getContext("2d");
 
@@ -141,11 +141,11 @@ document.addEventListener('DOMContentLoaded', function () {
 	function draw()
 	{
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
-		ctx.font = "30px Arial";
+		ctx.font = "40px Times New Roman";
 		ctx.fillStyle = "black";
 		
 		let text = "Shear Strength of Material : 452.703 N/mm^2";
-		ctx.fillText(text, 320,50);
+		ctx.fillText(text, 250,50);
 		ctx.font = "20px Arial";
 		ctx.fillText("F/2",760,225)
 		ctx.fillText("F/2",760,305)
