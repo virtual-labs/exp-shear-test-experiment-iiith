@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-		<link rel="stylesheet" href="./css/main.css">
-	</head>
 
-	<body class="page">
-		<div class="columns is-centered">
-			<div class="column has-text-centered">
-				<button id="restart" class="action-button">Restart</button>
-			</div>
-		</div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.5-b/css/style.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
 
-		<div class="columns is-centered">
-			<div class="column has-text-centered">
-					<canvas class="main" id="main"></canvas>
-			</div>
-		</div>
-		<script src="./js/main.js"></script>
-	</body>
+<div class="columns is-centered">
+    <div class="column has-text-centered mt-2">
+        <button id="play" class="v-button">Play</button>
+        <button id="pause" class="v-button">Pause</button>
+        <button id="restart" class="v-button">Restart</button>
+        <p>Simulation speed: <span id="demo_speed"></span>x</p>
+        <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+    </div>
+</div>
+
+<div class="columns is-centered">
+    <div class="column has-text-centered is-half">
+        <canvas class="main" id="main"></canvas>
+    </div>
+    <div class="column">
+        <div class="v-datalist-container">
+            <div class="v-datalist-title">Observation Table</div>
+            <div class="v-datalist-row v-bold">Diameter(mm) = 6.06</div>
+            <div class="v-datalist-row v-bold">Area of cross-section (mm<sup>2</sup>) = 6mm</div>
+            <div class="v-datalist-row v-bold">Failure Load P (kg) = <span id="load"> ? </span></div>
+            <div class="v-datalist-row v-bold">Double Shear Strength(N/mm<sup>2</sup>) = <span id="shear"> ? </span></div>
+            <div class="v-datalist-row">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/mathjs@9.2.0/lib/browser/math.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script src="./js/main.js"></script>
+</body>
+
 </html>
