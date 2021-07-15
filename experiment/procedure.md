@@ -1,22 +1,16 @@
-**Manual**
 
-Observation:
-
-   - Diameter of the Rod, D = ….. mm
-   - Cross-section area of the Rod (in double shear) = 2x π/4x d2 =.. mm2
-   - Load taken by the Specimen at the time of failure , W = N
-
-**Procedure for the experiment is as follows.**
-
-1. Insert the specimen in position and grip one end of the attachment in the upper portion and one end in the lower portion.
-2. Switch on the main switch of universal testing machine machine.
-3. The drag indicator in contact with the main indicator.
-4. Select the suitable range of loads and space the corresponding weight in the pendulum and balance it if necessary with the help of small balancing weights.
-5. Operate (push) buttons for driving the motor to drive the pump.
-6. Gradually move the head control level in left-hand direction till the specimen shears.
-7. Down the load at which the specimen shears.
-8. Stop the machine and remove the specimen
-Repeat the experiment with other specimens. 
+**Procedure**
+1. Measure the dimensions of the test specimen.
+2. Insert the specimen in position and grip one of the ends of the attachment in the upper portion and the other end in the lower portion.
+3. Switch on the main switch of universal testing machine.
+4. Gradually move the head control level in left-hand direction till the specimen shears.
+5. Stop the machine and remove the specimen.
+Repeat the experiment with other specimens.
 
 
-
+**Virtual Procedure**
+1. Start the Experiment by clicking the play button.
+2. Observe the movement of top slab and pressure applied on the rod in the simulation window.
+3. After a certain time, the specimen rod will break and the middle part will fall to the ground.
+4. An Observation Table is provided with different trials and mean double shear strength value is calculated.
+5. The Experiment allows you to pause/play/restart the simulation to view the values of different parameters at every stage of simulation.

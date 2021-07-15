@@ -1,1 +1,2 @@
-<a href="docs/Exp-3-Shear-test.pdf">read more</a>
+- Engineering Mechanics of Solids, 2nd Edition
+  Egor P. Popov

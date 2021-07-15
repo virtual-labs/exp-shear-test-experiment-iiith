@@ -66,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
     canvas.style = "border:3px solid;";
     const ctx = canvas.getContext("2d");
 
-    const fill = "black";
     const lineWidth = 1.5;
     const originalFPS = 10;
     let FPS = 10;
@@ -80,13 +79,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const boxX = 200;
     const boxWidth = 200;
-    const boxY = 240;
-    const boxHeight = 280;
+    const boxY = 270;
+    const boxHeight = 250;
 
     const slabX = 220;
     const slabWidth = 160;
-    const slabY = 100;
-    const slabHeight = 200;
+    const slabY = 150;
+    const slabHeight = 150;
 
     const rodX = 100;
     const rodWidth = 400;
@@ -142,31 +141,29 @@ document.addEventListener('DOMContentLoaded', function() {
             [boxX - 5 + boxWidth, rodY + rodHeight],
             [boxX + 5, rodY + rodHeight]
         ];
-        document.getElementById("load").innerHTML = "?";
-        document.getElementById("shear").innerHTML = "?";
     }
     setAll();
     drawStatic();
 
 
-    drawObject(ctx, brokenPart1, "#71797E");
-    drawObject(ctx, brokenPart2, "#71797E");
-    drawObject(ctx, leftPart, "#71797E");
+    drawObject(ctx, brokenPart1, data.colors.rod);
+    drawObject(ctx, brokenPart2, data.colors.rod);
+    drawObject(ctx, leftPart, data.colors.rod);
 
     function drawStatic() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = fill;
         ctx.lineWidth = lineWidth;
         ctx.lineCap = "round";
         ctx.lineJoin = "round";
 
 
-        drawObject(ctx, stand, "#643D01");
-        drawObject(ctx, box, "black");
-        drawObject(ctx, slab, "#43464B");
+        drawObject(ctx, stand, data.colors.stand);
+        drawObject(ctx, box, data.colors.box);
+        drawObject(ctx, slab, data.colors.slab);
 
         ctx.font = "30px Arial";
-        ctx.fillText("Load", slab[1][0] - 40, slab[1][1] - 70);
+        ctx.fillText("Load", slab[1][0] - 150, slab[1][1] - 50);
+        ctx.fillText("UTM Machine", 210, 30);
         ctx.lineWidth = 5;
         ctx.beginPath();
         ctx.moveTo(slab[1][0] - 70, slab[1][1] - 70);
@@ -186,9 +183,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function draw() {
         if (slab[2][1] < brokenPart2[1][1]) {
             drawStatic();
-            drawObject(ctx, brokenPart1, "#71797E");
-            drawObject(ctx, brokenPart2, "#71797E");
-            drawObject(ctx, leftPart, "#71797E");
+            drawObject(ctx, brokenPart1, data.colors.rod);
+            drawObject(ctx, brokenPart2, data.colors.rod);
+            drawObject(ctx, leftPart, data.colors.rod);
             move(slab, 1);
             tmHandle = window.setTimeout(draw, 500 / FPS);
 
@@ -197,13 +194,12 @@ document.addEventListener('DOMContentLoaded', function() {
             tms = window.setTimeout(draw, 20000 / FPS);
         } else if (leftPart[2][1] < standY - 5) {
             drawStatic();
-            drawObject(ctx, brokenPart1, "#71797E");
-            drawObject(ctx, brokenPart2, "#71797E");
+            drawObject(ctx, brokenPart1, data.colors.rod);
+            drawObject(ctx, brokenPart2, data.colors.rod);
             move(leftPart, 1);
-            drawObject(ctx, leftPart, "#71797E");
+            drawObject(ctx, leftPart, data.colors.rod);
             tmHandle = window.setTimeout(draw, 10 / FPS);
-            document.getElementById("load").innerHTML = "1700";
-            document.getElementById("shear").innerHTML = "289.23";
+            // document.getElementById("shear").innerHTML = "289.23";
         }
 
 
