@@ -1,4 +1,1 @@
- Place the shear test attachment on the lower table, this attachment consists of cutter. The specimen is inserted in shear test attachment & lift the lower table so that the zero is adjusted, then apply the load such that the specimen breaks in two or three pieces.
-
-If the specimen breaks in two pieces then it will be in single shear & if it breaks in three pieces then it will be in double shear. 
-
+- In direct shear test, the shearing stress is considered as uniformly distributed over the entire cross section. The shear force is applied by a suitable test rig, two different cases of shearing may arise; i.e., single shear and double shear. In single shear shearing occurs across a single surface and in double shear shearing occurs across two surfaces. Knowledge of shear failure is important while designing any structures or machine components. Shear force causes the surface to go out of the alignment with each other and thus the material fails.
