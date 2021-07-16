@@ -1,0 +1,49 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "Expression for Double shear strength is ",
+            "answers": {
+                "a": "Total shear force/area of cross section of specimen",
+                "b": "Total shear force/(2 x area of cross section of specimen)",
+                "c": "2 x Total shear force/area of cross section of specimen",
+                "d": "None of the above"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "The shear stress in double shear test is",
+            "answers": {
+                "a": "Induced shear stress",
+                "b": "Direct shear stress",
+                "c": "Both a & b",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "b": "The shear stress is generated due to the direct application of shear unlike when the specimen is subjected to torsion where the shear stress is induced."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Modulus of rigidity is found by shear test",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "The tensile test is carried on __________ materials.The diameter of the mild steel specimen to conduct a double shear test is 6mm. The failure load is obtained as 1500 kg. The double shear strength of the specimen is",
+            "answers": {
+                "a": "260 N/mm<sup>2</sup>",
+                "b": "300 N/mm<sup>2</sup>",
+                "c": "310 N/mm<sup>2</sup>",
+                "d": "290 N/mm<sup>2</sup>"
+            },
+            "correctAnswer": "a",
+            "difficulty": "advanced"
+        }
+    ]
+}

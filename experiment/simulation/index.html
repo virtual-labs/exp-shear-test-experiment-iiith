@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<!-- Add CSS at the head of HTML file -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css" />
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<div class="columns is-centered">
+    <div class="column has-text-centered mt-2">
+        <button id="play" class="v-button">Play</button>
+        <button id="pause" class="v-button" disabled>Pause</button>
+        <button id="restart" class="v-button" disabled>Restart</button>
+        <p>Simulation speed: <span id="demo_speed"></span>x</p>
+        <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+    </div>
+</div>
+
+<div class="columns is-centered ">
+    <div class="column has-text-centered is-half">
+        <canvas class="main" id="main"></canvas>
+    </div>
+    <div class="column">
+        <div class="v-table-wrap">
+            <table class="table is-bordered is-fullwidth v-table-primary mb-2 has-text-centered">
+                <thead>
+                    <tr>
+                        <th>Diameter (mm)</th>
+                        <th>Area of Cross Section<br>(A = nd<sup>2</sup>/4) mm<sup>2</sup></th>
+                        <th>Failure Load P (Kg)</th>
+                        <th>Double Shear Strength<br>(P*9.81)/2A (N/mm<sup>2</sup>)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5.91</td>
+                        <td>27.42</td>
+                        <td>1300</td>
+                        <td>232.55</td>
+                    </tr>
+                    <tr>
+                        <td>5.95</td>
+                        <td>27.79</td>
+                        <td>1450</td>
+                        <td>255.93</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>28.26</td>
+                        <td>1500</td>
+                        <td>260.35</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Average Double Shear Strength = 249.61 N/mm<sup>2</sup></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="./js/data.json"></script>
+<script src="./js/main.js"></script>
 </body>
+
 </html>
