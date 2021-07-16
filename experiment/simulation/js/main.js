@@ -199,7 +199,9 @@ document.addEventListener('DOMContentLoaded', function() {
             move(leftPart, 1);
             drawObject(ctx, leftPart, data.colors.rod);
             tmHandle = window.setTimeout(draw, 10 / FPS);
-            // document.getElementById("shear").innerHTML = "289.23";
+        } else {
+            pauseButton.setAttribute("disabled", "true");
+            playButton.setAttribute("disabled", "true");
         }
 
 
