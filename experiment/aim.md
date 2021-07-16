@@ -1,3 +1,4 @@
 **Objective** 
- To determine the Shear Test of Steel. 
+
+To determine the Shear Test of Steel. 
 
