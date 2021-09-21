@@ -202,6 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             pauseButton.setAttribute("disabled", "true");
             playButton.setAttribute("disabled", "true");
+
         }
 
 
