@@ -1,7 +1,7 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "Shear stress at top most fibre of rectangular section is _____________",
+            "question": "1. Shear stress at top most fibre of rectangular section is _____________",
             "answers": {
                 "a": "Maximum",
                 "b": "Minimum",
@@ -15,7 +15,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "In a double shear test the specimen breaks into",
+            "question": "2. In a double shear test the specimen breaks into",
             "answers": {
                 "a": "3 pieces",
                 "b": "2 pieces",
@@ -29,7 +29,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "The shearing force P in each section where force applied is (Total shear force = F)",
+            "question": "3. The shearing force P in each section where force applied is (Total shear force = F)",
             "answers": {
                 "a": "F",
                 "b": "F/4",
