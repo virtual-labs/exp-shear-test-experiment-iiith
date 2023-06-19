@@ -1,0 +1,46 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "1. Shear stress at top most fibre of rectangular section is _____________",
+            "answers": {
+                "a": "Maximum",
+                "b": "Minimum",
+                "c": "Zero",
+                "d": "Uniform throughout"
+            },
+            "explanations": {
+                "c": "The shear stress at a distance “y “ from NA = 6F/bd<sup>3</sup> × u (u = d<sup>2</sup>/4-y). <br>The maximum shear stress occurs at a neutral axis. In the above equation when y is equal to zero, q is max. Hence the shear stress at topmost fibre of rectangular section is zero"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. In a double shear test the specimen breaks into",
+            "answers": {
+                "a": "3 pieces",
+                "b": "2 pieces",
+                "c": "4 pieces",
+                "d": "None of the Above"
+            },
+            "explanations": {
+                "a": "In a double shear test the shear force is applied at two places and when the ultimate limit is reached the specimen breaks at both places into three pieces."
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "3. The shearing force P in each section where force applied is (Total shear force = F)",
+            "answers": {
+                "a": "F",
+                "b": "F/4",
+                "c": "F/2",
+                "d": "2F"
+            },
+            "explanations": {
+                "c": "In a double shear test the total shear force applied is divided equally at the two contact points.Hence if the total shear force is F, at one section the shear force is F/2"
+            },
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        }
+    ]
+}

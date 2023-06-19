@@ -1,0 +1,17 @@
+
+/home/runner/work/exp-shear-test-experiment-iiith/exp-shear-test-experiment-iiith/experiment/simulation/js/main.js
+  149:34  warning  'data' is not defined  no-undef
+  150:34  warning  'data' is not defined  no-undef
+  151:31  warning  'data' is not defined  no-undef
+  160:32  warning  'data' is not defined  no-undef
+  161:30  warning  'data' is not defined  no-undef
+  162:31  warning  'data' is not defined  no-undef
+  186:42  warning  'data' is not defined  no-undef
+  187:42  warning  'data' is not defined  no-undef
+  188:39  warning  'data' is not defined  no-undef
+  197:42  warning  'data' is not defined  no-undef
+  198:42  warning  'data' is not defined  no-undef
+  200:39  warning  'data' is not defined  no-undef
+
+✖ 12 problems (0 errors, 12 warnings)
+

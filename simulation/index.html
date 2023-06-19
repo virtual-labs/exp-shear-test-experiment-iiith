@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div id="box">
+        <div class="columns is-centered is-flex">
+            <div class="column mt-2 is-10-desktop is-10-tablet is-10-mobile has-text-centered">
+                <div class="columns is-mobile is-centered is-flex">
+                    <div id="anime-demo" class="column has-text-centered controls">
+                        <button id="play" class="v-button">Play</button>
+                        <button id="pause" class="v-button" disabled>Pause</button>
+                        <button id="restart" class="v-button" disabled>Restart</button><br/><br/>
+                        <p>Simulation Speed: <span id="demo_speed"></span>x</p>
+                    <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns is-centered is-variable is-flex is-flex-wrap-wrap workspace">
+            <!-- <div id="apparatus" class="column has-text-centered is-3-desktop is-5-tablet is-5-mobile apparatus">
+                <div class="v-datalist-container">
+                    <div class="v-datalist-title" >Input Parameters</div>
+                    <br/>
+                    <p>Simulation speed: <span id="demo_speed"></span>x</p>
+                    <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+                    
+                </div>
+            </div> -->
+            
+            <div  class="column has-text-centered is-4-desktop is-10-tablet is-10-mobile observations">
+                <div class="v-datalist-container ">
+                    <div class="v-datalist-title">Observations</div>
+                    <div class="v-datalist-row" id="obs-table">
+                        <div class="v-table-wrap">
+                            <table class="table is-bordered  v-table-primary has-text-centered">
+                                <thead>
+                                    <tr>
+                                        <th>Diameter (mm)</th>
+                                        <th>Area of Cross Section<br>(A = nd<sup>2</sup>/4) mm<sup>2</sup></th>
+                                        <th>Failure Load P (Kg)</th>
+                                        <th>Double Shear Strength<br>(P*9.81)/2A (N/mm<sup>2</sup>)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5.91</td>
+                                        <td>27.42</td>
+                                        <td>1300</td>
+                                        <td>232.55</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5.95</td>
+                                        <td>27.79</td>
+                                        <td>1450</td>
+                                        <td>255.93</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>28.26</td>
+                                        <td>1500</td>
+                                        <td>260.35</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">Average Double Shear Strength = 249.61 N/mm<sup>2</sup></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="result"></div>
+                    </div>
+                    <!-- <div class="v-datalist-row ">
+                        <div class="v-table-wrap">
+                            <div id="chartContainer"></div>     
+                        </div>         
+
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="column has-text-centered is-5-desktop is-10-tablet is-10-mobile simulation" id="container">
+                <div class="v-datalist-container">
+                    <div class="columns">
+                        <div class="column has-text-centered ">
+                            <canvas class="main" id="main"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+<script src="./js/data.json"></script>
+<script src="./js/main.js"></script>
+<script src="../assets/js/iframeResize.js"></script></body>
+
+</html>
+
+
+
+
