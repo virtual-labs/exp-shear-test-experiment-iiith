@@ -1,46 +1,158 @@
 {
-    "version": 2.0,
-    "questions": [{
-            "question": "1. Shear stress at top most fibre of rectangular section is _____________",
-            "answers": {
-                "a": "Maximum",
-                "b": "Minimum",
-                "c": "Zero",
-                "d": "Uniform throughout"
-            },
-            "explanations": {
-                "c": "The shear stress at a distance “y “ from NA = 6F/bd<sup>3</sup> × u (u = d<sup>2</sup>/4-y). <br>The maximum shear stress occurs at a neutral axis. In the above equation when y is equal to zero, q is max. Hence the shear stress at topmost fibre of rectangular section is zero"
-            },
-            "correctAnswer": "c",
-            "difficulty": "beginner"
-        },
-        {
-            "question": "2. In a double shear test the specimen breaks into",
-            "answers": {
-                "a": "3 pieces",
-                "b": "2 pieces",
-                "c": "4 pieces",
-                "d": "None of the Above"
-            },
-            "explanations": {
-                "a": "In a double shear test the shear force is applied at two places and when the ultimate limit is reached the specimen breaks at both places into three pieces."
-            },
-            "correctAnswer": "a",
-            "difficulty": "beginner"
-        },
-        {
-            "question": "3. The shearing force P in each section where force applied is (Total shear force = F)",
-            "answers": {
-                "a": "F",
-                "b": "F/4",
-                "c": "F/2",
-                "d": "2F"
-            },
-            "explanations": {
-                "c": "In a double shear test the total shear force applied is divided equally at the two contact points.Hence if the total shear force is F, at one section the shear force is F/2"
-            },
-            "correctAnswer": "c",
-            "difficulty": "beginner"
-        }
-    ]
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is shear stress?",
+      "answers": {
+        "a": "Stress acting parallel to the cross-sectional area",
+        "b": "Stress acting perpendicular to the cross-sectional area",
+        "c": "Stress caused by temperature change",
+        "d": "Stress caused by impact loading"
+      },
+      "explanations": {
+        "a": "Correct. Shear stress acts tangentially or parallel to the resisting area and tends to cause adjacent layers to slide over one another.",
+        "b": "Incorrect. This describes normal stress rather than shear stress.",
+        "c": "Incorrect. Temperature changes may induce thermal stresses, not shear stress directly.",
+        "d": "Incorrect. Impact loading may create different types of stresses depending on the loading condition."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In a double shear test, the specimen generally breaks into",
+      "answers": {
+        "a": "One piece",
+        "b": "Two pieces",
+        "c": "Three pieces",
+        "d": "Four pieces"
+      },
+      "explanations": {
+        "a": "Incorrect. Failure occurs along shear planes and does not leave the specimen intact.",
+        "b": "Incorrect. Double shear involves failure along two shear planes.",
+        "c": "Correct. In double shear, the specimen typically fails along two planes, producing three pieces.",
+        "d": "Incorrect. Double shear failure does not normally create four pieces."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Shear failure occurs when",
+      "answers": {
+        "a": "The specimen melts",
+        "b": "The material buckles",
+        "c": "The applied shear stress exceeds the shear strength",
+        "d": "The material changes color"
+      },
+      "explanations": {
+        "a": "Incorrect. Melting is caused by high temperature, not shear loading.",
+        "b": "Incorrect. Buckling is a compression-related instability phenomenon.",
+        "c": "Correct. Shear failure occurs when the applied shear stress exceeds the material's shear strength.",
+        "d": "Incorrect. Color change is not a criterion for shear failure."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following components commonly experiences shear loading?",
+      "answers": {
+        "a": "Bolt",
+        "b": "Rivet",
+        "c": "Pin",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. Bolts may experience shear loading, but this is not the complete answer.",
+        "b": "Incorrect. Rivets may experience shear loading, but this is not the complete answer.",
+        "c": "Incorrect. Pins may experience shear loading, but this is not the complete answer.",
+        "d": "Correct. Bolts, rivets, and pins are common examples of components subjected to shear loading."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. In a double shear test, the total load is resisted by",
+      "answers": {
+        "a": "One shear plane",
+        "b": "Two shear planes",
+        "c": "Three shear planes",
+        "d": "No shear plane"
+      },
+      "explanations": {
+        "a": "Incorrect. This corresponds to a single shear condition.",
+        "b": "Correct. In double shear, the load is shared by two shear planes.",
+        "c": "Incorrect. Standard double shear involves two shear planes.",
+        "d": "Incorrect. Shear resistance is always provided by shear planes."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. The primary purpose of a shear test is to determine",
+      "answers": {
+        "a": "Young's modulus",
+        "b": "Compressive strength",
+        "c": "Shear strength",
+        "d": "Thermal conductivity"
+      },
+      "explanations": {
+        "a": "Incorrect. Young's modulus is generally obtained from tensile or compression tests.",
+        "b": "Incorrect. Compressive strength is determined using a compression test.",
+        "c": "Correct. The shear test is conducted to determine the shear strength of a material.",
+        "d": "Incorrect. Thermal conductivity is unrelated to shear testing."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. The cross-sectional area of a circular specimen of diameter d is",
+      "answers": {
+        "a": "πd²",
+        "b": "πd²/2",
+        "c": "πd²/8",
+        "d": "πd²/4"
+      },
+      "explanations": {
+        "a": "Incorrect. This overestimates the circular area.",
+        "b": "Incorrect. This is not the correct expression for circular area.",
+        "c": "Incorrect. This gives only half of the actual area expression.",
+        "d": "Correct. The area of a circular cross-section is πd²/4."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. The shear stress in a double shear test is given by",
+      "answers": {
+        "a": "P/A",
+        "b": "P/(2A)",
+        "c": "2P/A",
+        "d": "A/P"
+      },
+      "explanations": {
+        "a": "Incorrect. This expression applies to single shear.",
+        "b": "Correct. In double shear, the resisting area is doubled, giving P/(2A).",
+        "c": "Incorrect. This would overestimate the shear stress.",
+        "d": "Incorrect. This is dimensionally incorrect for stress."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. If the failure load doubles while the specimen dimensions remain unchanged, the shear strength will",
+      "answers": {
+        "a": "Double",
+        "b": "Become half",
+        "c": "Remain unchanged",
+        "d": "Become zero"
+      },
+      "explanations": {
+        "a": "Correct. Since shear strength is proportional to failure load for a fixed area, doubling the load doubles the shear strength.",
+        "b": "Incorrect. Increasing load does not reduce strength.",
+        "c": "Incorrect. Strength changes when failure load changes.",
+        "d": "Incorrect. Shear strength cannot become zero under this condition."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
 }
