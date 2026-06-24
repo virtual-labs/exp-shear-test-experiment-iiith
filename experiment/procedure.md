@@ -1,16 +1,20 @@
-
 **Procedure**
-1. Measure the dimensions of the test specimen.
-2. Insert the specimen in position and grip one of the ends of the attachment in the upper portion and the other end in the lower portion.
-3. Switch on the main switch of universal testing machine.
-4. Gradually move the head control level in left-hand direction till the specimen shears.
-5. Stop the machine and remove the specimen.
-Repeat the experiment with other specimens.
 
+1. Measure the dimensions of the test specimen accurately.
+2. Place the specimen in the shear test attachment and secure one end in the upper grip and the other end in the lower grip.
+3. Switch on the Universal Testing Machine (UTM).
+4. Apply the load gradually by operating the head control lever.
+5. Continue loading until the specimen fails in shear.
+6. Record the failure load at which the specimen shears.
+7. Stop the machine and remove the broken specimen.
+8. Repeat the experiment for additional specimens and determine the average shear strength.
 
 **Virtual Procedure**
-1. Start the Experiment by clicking the play button.
-2. Observe the movement of top slab and pressure applied on the rod in the simulation window.
-3. After a certain time, the specimen rod will break and the middle part will fall to the ground.
-4. An Observation Table is provided with different trials and mean double shear strength value is calculated.
-5. The Experiment allows you to pause/play/restart the simulation to view the values of different parameters at every stage of simulation.
+
+1. Start the experiment by clicking the **Play** button.
+2. Observe the movement of the upper loading block and the shear force applied to the specimen.
+3. As the load increases, observe the deformation of the specimen.
+4. Continue the simulation until the specimen fails under double shear and the middle portion separates.
+5. Observe the failure load and the calculated double shear strength values displayed in the observation table.
+6. Compare the results obtained from different trials.
+7. Use the **Pause**, **Play**, and **Restart** controls to observe the experiment at different stages.
