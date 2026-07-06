@@ -1,49 +1,154 @@
 {
-    "version": 2.0,
-    "questions": [{
-            "question": "1. Expression for Double shear strength is ",
-            "answers": {
-                "a": "Total shear force/area of cross section of specimen",
-                "b": "Total shear force/(2 x area of cross section of specimen)",
-                "c": "2 x Total shear force/area of cross section of specimen",
-                "d": "None of the above"
-            },
-            "correctAnswer": "b",
-            "difficulty": "beginner"
-        },
-        {
-            "question": "2. The shear stress in double shear test is",
-            "answers": {
-                "a": "Induced shear stress",
-                "b": "Direct shear stress",
-                "c": "Both a & b",
-                "d": "None of the above"
-            },
-            "explanations": {
-                "b": "The shear stress is generated due to the direct application of shear unlike when the specimen is subjected to torsion where the shear stress is induced."
-            },
-            "correctAnswer": "b",
-            "difficulty": "intermediate"
-        },
-        {
-            "question": "3. Modulus of rigidity is found by shear test",
-            "answers": {
-                "a": "True",
-                "b": "False"
-            },
-            "correctAnswer": "b",
-            "difficulty": "intermediate"
-        },
-        {
-            "question": "4. The tensile test is carried on __________ materials.The diameter of the mild steel specimen to conduct a double shear test is 6mm. The failure load is obtained as 1500 kg. The double shear strength of the specimen is",
-            "answers": {
-                "a": "260 N/mm<sup>2</sup>",
-                "b": "300 N/mm<sup>2</sup>",
-                "c": "310 N/mm<sup>2</sup>",
-                "d": "290 N/mm<sup>2</sup>"
-            },
-            "correctAnswer": "a",
-            "difficulty": "advanced"
-        }
-    ]
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The expression for shear strength in a double shear test is",
+      "answers": {
+        "a": "P/A",
+        "b": "P/(2A)",
+        "c": "2P/A",
+        "d": "A/P"
+      },
+      "explanations": {
+        "a": "Incorrect. This expression corresponds to single shear.",
+        "b": "Correct. In double shear, the resisting area is twice the specimen cross-sectional area.",
+        "c": "Incorrect. This would overestimate the shear strength.",
+        "d": "Incorrect. This expression does not represent stress."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The shear stress measured in a direct shear test is",
+      "answers": {
+        "a": "Direct shear stress",
+        "b": "Bending stress",
+        "c": "Thermal stress",
+        "d": "Residual stress"
+      },
+      "explanations": {
+        "a": "Correct. The specimen is directly subjected to shear loading.",
+        "b": "Incorrect. Bending stress arises from bending moments.",
+        "c": "Incorrect. Thermal stress is caused by temperature changes.",
+        "d": "Incorrect. Residual stress is unrelated to the applied shear load in this test."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Shear strength is an important design property for",
+      "answers": {
+        "a": "Bolts and rivets",
+        "b": "Pinned joints",
+        "c": "Structural connections",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. This is only one application.",
+        "b": "Incorrect. This is only one application.",
+        "c": "Incorrect. This is only one application.",
+        "d": "Correct. Shear strength is important in all these engineering applications."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Modulus of rigidity is directly determined from a standard double shear test.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Incorrect. A standard double shear test is used to determine shear strength, not modulus of rigidity.",
+        "b": "Correct. Modulus of rigidity is typically determined from torsion-related experiments."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. A specimen fails under a load of 24 kN in double shear. If the cross-sectional area is 100 mm², the shear strength is",
+      "answers": {
+        "a": "240 MPa",
+        "b": "120 MPa",
+        "c": "480 MPa",
+        "d": "60 MPa"
+      },
+      "explanations": {
+        "a": "Incorrect. The doubled resisting area must be considered.",
+        "b": "Correct. τ = 24000/(2×100) = 120 N/mm² = 120 MPa.",
+        "c": "Incorrect. This overestimates the shear strength.",
+        "d": "Incorrect. This underestimates the shear strength."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. In double shear, the resisting area compared to single shear is",
+      "answers": {
+        "a": "Half",
+        "b": "Equal",
+        "c": "Twice",
+        "d": "Four times"
+      },
+      "explanations": {
+        "a": "Incorrect. Double shear increases the resisting area.",
+        "b": "Incorrect. The resisting area is not the same.",
+        "c": "Correct. Two shear planes provide twice the resisting area.",
+        "d": "Incorrect. The increase is not fourfold."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. A circular specimen has a diameter of 10 mm. Its cross-sectional area is",
+      "answers": {
+        "a": "78.54 mm²",
+        "b": "31.42 mm²",
+        "c": "157.08 mm²",
+        "d": "50.00 mm²"
+      },
+      "explanations": {
+        "a": "Correct. A = πd²/4 = π×10²/4 = 78.54 mm².",
+        "b": "Incorrect. The area is underestimated.",
+        "c": "Incorrect. The area is overestimated.",
+        "d": "Incorrect. This is not the correct circular area."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. A 12 mm diameter specimen fails under a double shear load of 40 kN. The shear strength is closest to",
+      "answers": {
+        "a": "88 MPa",
+        "b": "177 MPa",
+        "c": "354 MPa",
+        "d": "708 MPa"
+      },
+      "explanations": {
+        "a": "Incorrect. The value is too low.",
+        "b": "Correct. A = 113.1 mm², τ = 40000/(2×113.1) ≈ 177 MPa.",
+        "c": "Incorrect. The resisting area has been neglected.",
+        "d": "Incorrect. This greatly overestimates the result."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Why is double shear often preferred in engineering connections?",
+      "answers": {
+        "a": "It eliminates all deformation",
+        "b": "It reduces material density",
+        "c": "It increases the effective resisting area",
+        "d": "It changes ductile materials into brittle materials"
+      },
+      "explanations": {
+        "a": "Incorrect. Deformation can still occur.",
+        "b": "Incorrect. Material density remains unchanged.",
+        "c": "Correct. Double shear provides two resisting planes and increases load-carrying capacity.",
+        "d": "Incorrect. Shear conditions do not change material type."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    }
+  ]
 }
