@@ -1,0 +1,8 @@
+data = {
+    "colors": {
+        "stand": "#643D01",
+        "box": "black",
+        "slab": "#43464B",
+        "rod": "#71797E"
+    }
+}
